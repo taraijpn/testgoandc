@@ -15,7 +15,7 @@ func main() {
 	fmt.Println(x)
 
 	if x == 1.0 {
-		fmt.Println("x is just 1.0")
+		fmt.Println("x is exactly 1.0")
 	} else {
 		fmt.Println("x is not 1.0")
 		fmt.Println(x - 1.0)
@@ -31,7 +31,7 @@ func main() {
 	fmt.Println(y)
 
 	if y == 1.0 {
-		fmt.Println("y is just 1.0")
+		fmt.Println("y is exactly 1.0")
 	} else {
 		fmt.Println("y is not 1.0")
 		fmt.Println(y - 1.0)

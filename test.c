@@ -9,7 +9,7 @@ int main(){
 	printf("x: %g\n", x);
 
 	if (x == 1.0) {
-		printf("x is just 1.0\n");
+		printf("x is exactly 1.0\n");
 	} else {
 		printf("x is not 1.0\n");
 		printf("%g\n", x - 1.0);
@@ -25,7 +25,7 @@ int main(){
 	printf("y: %g\n", y);
 
 	if (y == 1.0) {
-		printf("y is just 1.0\n");
+		printf("y is exactly 1.0\n");
 	} else {
 		printf("y is not 1.0\n");
 		printf("%g\n", y - 1.0);
